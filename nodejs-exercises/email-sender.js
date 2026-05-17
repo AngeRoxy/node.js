@@ -1,6 +1,4 @@
 //  5 - Email Sender with Nodemailer
-//  IMPORTANT: Replace placeholders with your own credentials before running.
-//  NEVER commit real credentials to GitHub!
 
 const nodemailer = require("nodemailer");
 
@@ -15,7 +13,7 @@ const transporter = nodemailer.createTransport({
 
 // Email options
 const mailOptions = {
-  from: "kouadioroxanne70@gmail.com",          // Replace with your Gmail address
+  from: "YOUR EMAIL",          // Replace with your Gmail address
   to: "RECIPIENT_EMAIL@example.com",     // Replace with recipient's address
   subject: "Hello from Node.js!",
   text: "This email was sent using Nodemailer and Node.js 🚀",
